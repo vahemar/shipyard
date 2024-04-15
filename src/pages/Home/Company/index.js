@@ -6,7 +6,7 @@ import ship from '../../../assets/png/shipyard_video_image.png'
 const Company = () => {
     return (
         <Flex w={'full'}>
-            <Flex direction={'column'} p={20} w={'full'} bg={'#F5F5F9'}>
+            <Flex display={['none', 'none', 'flex', 'flex']} direction={'column'} p={20} w={'full'} bg={'#F5F5F9'}>
                 <Flex w={'full'} pb={12}>
                     <Text fontSize={'40px'} fontWeight={700}>О компании</Text>
                 </Flex>
@@ -32,6 +32,28 @@ const Company = () => {
                             <Text fontSize={'19px'}>Рассчитайте моментально стоимость полных портовых услуг в порту VISMA</Text>
                         </Flex>
                     </Flex>
+                </Flex>
+            </Flex>
+            <Flex display={['flex', 'flex', 'none', 'none']} direction={'column'} p={16} w={'full'} bg={'#F5F5F9'}>
+                <Flex w={'full'} pb={8}>
+                    <Text fontSize={'40px'} fontWeight={700}>О компании</Text>
+                </Flex>
+                <Flex direction={'column'} w={'full'} gap={6} >
+                    <Flex direction={'column'} gap={2} align={'flex-start'}>
+                        <Text>Tristique orci consectetur sit felis. Sed ac auctor tellus lobortis. Enim non turpis nulla nec a sapien sit amet molestie. Et id malesuada gravida sit volutpat. Volutpat sed lectus elementum diam neque facilisis in. Convallis nibh sem in viverra quis. Interdum pharetra.</Text>
+                        <Text>Libero nunc porttitor id mi convallis ultricies convallis erat. At sagittis nisi at in diam sit.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus. Vivamus tincidunt non lectus odio magna semper odio risus.Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text>Quam accumsan mauris enim quam. A commodo ultrices urna vitae nibh rhoncus at nisl. Duis nibh libero ut enim. Metus aliquam cursus molestie sapien risus. Suspendisse volutpat.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                        <Text display={'flex'} flexDirection={'row'} gap={4} alignItems={'center'}><Circle /> Vivamus tincidunt non lectus odio magna semper odio risus.</Text>
+                    </Flex>
+                    <Image w={'full'} src={ship} alt='ship' />
                 </Flex>
             </Flex>
         </Flex>
