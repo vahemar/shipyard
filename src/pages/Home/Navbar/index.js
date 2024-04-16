@@ -7,7 +7,7 @@ import { services } from '../../../constants/constants';
 const Navbar = () => {
     return (
         <Flex w={'full'}>
-            <Flex display={['none', 'none', 'flex', 'flex']} w={'full'} align={'center'}>
+            <Flex display={['none', 'none', 'none', 'none', 'flex']} w={'full'} align={'center'}>
                 <Image w={'full'} src={shipyard} alt='shipyard' pos={'relative'} />
                 <Flex w={'full'} pos={'absolute'} gap={24} justify={'space-between'} p={20} align={'center'} >
                     <Flex direction={'column'} align={'flex-start'} gap={8}>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </Flex>
                 </Flex>
             </Flex>
-            <Flex display={['flex', 'flex', 'none', 'none']} w={'full'} align={'center'}>
+            <Flex display={['flex', 'flex', 'flex', 'flex', 'none']} w={'full'} align={'center'}>
                 <Image w={'full'} src={shipyard} alt='shipyard' pos={'relative'} />
                 <Flex gap={6} w={'full'} pos={'absolute'} justify={'space-between'} direction={'row'} p={4} align={'center'} >
                     <Flex w={'full'} flexWrap={'wrap'} direction={'column'} align={'flex-start'} gap={2}>

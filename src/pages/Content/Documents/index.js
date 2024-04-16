@@ -13,7 +13,7 @@ const Documents = () => {
                     <ArrowRightBlack />
                     <Text>Заявка и перечень документов для заключения договоров</Text>
                 </Flex>
-                <Flex direction={'column'} justify={'center'} align={'center'} p={32}>
+                <Flex direction={'column'} justify={'center'} align={'center'} p={{base: 4, sm: 8, md: 12, lg: 16 }}>
                     <Text pb={20} textAlign={'center'} fontSize={'40px'} lineHeight={'56px'} fontWeight={700}>Заявка и перечень документов для заключения договоров</Text>
                     <Flex fontFamily={'PT Sans'} lineHeight={'22.4px'} direction={'column'} align={'flex-start'} gap={4} pl={32} pr={32} >
                         <Text>Для рассмотрения возможности заключения договора контрагент должен предоставить следующие документы:</Text>
@@ -44,7 +44,7 @@ const Documents = () => {
                 </Flex>
             </Flex>
             <Flex w={'full'} display={['flex', 'flex', 'none', 'none']} direction={'column'}>
-                <Flex align={'center'} gap={4} fontWeight={700} textTransform={'uppercase'} bg={'#F5F5F9'} w={'full'} pt={6} pb={6} pl={20} direction={'row'}>
+                <Flex align={'center'} gap={4} fontWeight={700} textTransform={'uppercase'} bg={'#F5F5F9'} w={'full'} pt={4} pb={4} pl={10} direction={'row'}>
                     <Text>Главная</Text>
                     <ArrowRightBlack />
                     <Text>Клиентам</Text>

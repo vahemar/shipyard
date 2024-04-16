@@ -82,7 +82,7 @@ const ItemDescription = () => {
                 </Flex>
             </Flex>
             <Flex w={'full'} display={['flex', 'flex', 'none', 'none']} direction={'column'} align={'center'}>
-                <Flex align={'center'} gap={4} fontWeight={700} textTransform={'uppercase'} bg={'#F5F5F9'} w={'full'} p={8} direction={'row'}>
+                <Flex align={'center'} fontSize={'13px'} gap={2} fontWeight={700} textTransform={'uppercase'} bg={'#F5F5F9'} w={'full'} p={4} direction={'row'} flexWrap={'wrap'}>
                     <Text>Главная</Text>
                     <ArrowRightBlack />
                     <Text>Клиентам</Text>
@@ -107,14 +107,14 @@ const ItemDescription = () => {
                             <Flex direction={'column'} gap={2}>
                                 <Text textTransform={'uppercase'} fontFamily={'PT Sans'} fontWeight={700} fontSize={'13px'} lineHeight={'18px'}>Дополнительная информация о грузе:</Text>
                                 <Flex align={'center'} gap={2}>
-                                    <Input w={'416px'} h={'100px'} />
+                                    <Input  h={'100px'} />
                                 </Flex>
                             </Flex>
-                            <Flex direction={'column'} gap={4} >
+                            <Flex direction={'column'} gap={4} w={'full'} align={'center'} >
                                 <Text textTransform={'uppercase'} fontFamily={'PT Sans'} fontWeight={700} fontSize={'13px'} lineHeight={'18px'}>Прикрепить файл</Text>
                                 <Flex gap={4} direction={'row'}>
-                                    <Button fontSize={'13px'} bg={'#5DB7DE'} w={'148px'} h={'34px'} color={'white'} textTransform={'uppercase'}>выберите файл</Button>
-                                    <Button fontSize={'13px'} bg={'transparent'} w={'148px'} h={'34px'} color={'black'} textTransform={'uppercase'}>Файл не выбран</Button>
+                                    <Button fontSize={'13px'} bg={'#5DB7DE'} w={'100px'} h={'34px'} color={'white'} textTransform={'uppercase'}>выберите файл</Button>
+                                    <Button fontSize={'13px'} bg={'transparent'} w={'100px'} h={'34px'} color={'black'} textTransform={'uppercase'}>Файл не выбран</Button>
                                 </Flex>
                             </Flex>
                         </Flex>

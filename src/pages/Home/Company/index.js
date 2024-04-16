@@ -34,8 +34,8 @@ const Company = () => {
                     </Flex>
                 </Flex>
             </Flex>
-            <Flex display={['flex', 'flex', 'none', 'none']} direction={'column'} p={16} w={'full'} bg={'#F5F5F9'}>
-                <Flex w={'full'} pb={8}>
+            <Flex display={['flex', 'flex', 'none', 'none']} direction={'column'} p={8} w={'full'} bg={'#F5F5F9'}>
+                <Flex w={'full'} pb={4}>
                     <Text fontSize={'40px'} fontWeight={700}>О компании</Text>
                 </Flex>
                 <Flex direction={'column'} w={'full'} gap={6} >
